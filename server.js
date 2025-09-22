@@ -789,7 +789,7 @@ app.get('/simulation', (req, res) => {
                         <h3 style="margin-bottom: 15px; font-size: 1.5rem;">📱 結果は公式LINEより受け取れます</h3>
                         <p style="margin-bottom: 20px; opacity: 0.9;">より詳細な分析結果とプロの投資アドバイスを<br>公式LINEで無料配信中！</p>
                         <!-- FIXED: Use correct LINE Bot ID -->
-                        <a href="https://line.me/R/ti/p/@234zjfds" class="line-button" style="display: inline-block; background: #00C300; color: white; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: all 0.3s ease;">🔗 公式LINEに登録する</a>
+                        <a href="https://line.me/R/ti/p/@234zjfds" target="_blank" rel="noopener noreferrer" class="line-button" style="display: inline-block; background: #00C300; color: white; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: all 0.3s ease;" onclick="window.open('https://line.me/R/ti/p/@234zjfds', '_blank'); return false;">🔗 公式LINEに登録する</a>
                         
                         <div style="margin-top: 30px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 10px;">
                             <h4 style="margin-bottom: 15px; color: #4CAF50;">💡 基本収益情報</h4>
