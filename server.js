@@ -1073,10 +1073,10 @@ app.get('/health', (req, res) => {
 
 // サーバー起動
 app.listen(port, () => {
-  console.log(\`Server is running on port \${port}\`);
-  console.log(\`Environment: \${process.env.NODE_ENV || 'development'}\`);
-  console.log(\`Database URL: \${process.env.DATABASE_URL ? 'configured' : 'not configured'}\`);
-  console.log(\`LINE Channel Access Token: \${process.env.LINE_CHANNEL_ACCESS_TOKEN ? 'configured' : 'not configured'}\`);
-  console.log(\`LINE Channel Secret: \${process.env.LINE_CHANNEL_SECRET ? 'configured' : 'not configured'}\`);
-  console.log(\`LINE_BOT_ID: \${process.env.LINE_BOT_ID ? 'configured' : 'not configured'}\`);
+  console.log(`Server is running on port ${port}`);
+  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`Database URL: ${process.env.DATABASE_URL ? 'configured' : 'not configured'}`);
+  console.log(`LINE Channel Access Token: ${process.env.LINE_CHANNEL_ACCESS_TOKEN ? 'configured' : 'not configured'}`);
+  console.log(`LINE Channel Secret: ${process.env.LINE_CHANNEL_SECRET ? 'configured' : 'not configured'}`);
+  console.log(`LINE_BOT_ID: ${process.env.LINE_BOT_ID ? 'configured' : 'not configured'}`);
 });
