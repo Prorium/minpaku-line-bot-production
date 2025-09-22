@@ -1,0 +1,21 @@
+{
+  "name": "minpaku-investment-simulator",
+  "version": "1.0.0",
+  "description": "民泊投資シミュレーションシステム with LINE Bot integration",
+  "main": "complete-server.js",
+  "scripts": {
+    "start": "node complete-server.js",
+    "dev": "nodemon complete-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@line/bot-sdk": "^7.5.2",
+    "pg": "^8.11.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["minpaku", "investment", "simulator", "line-bot"],
+  "author": "Prorium Tool",
+  "license": "MIT"
+}
